@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+ body {
+  background:#000;
+  height: 100%;
+ }
+
+ .container {
+  background: #1F2937;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  
+ }
+
+ .container .child {
+  background: peachpuff;
+  border: 1px solid brown;
+  height: 200px;
+  
+ }
+
+ .container .head.child {
+  background: #1F2937;
+  height: 300px;
+ }
+
+ .container .foot.child {
+  background: #1F2937;
+  height: 70px;
+ }
+
+ .child.blue {
+  display: flex;
+  justify-content: center;
+  background: rgb(245, 240, 240);
+  height: 120px;
+ }
+ .child.blue .blue {
+  background: #3882F6;
+  margin: 40px 30px 40px 30px;
+  border-radius: 3px;
+  height: 50px;
+  width: 500px
+ }
+
+ .blue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  
+ }
+ 
+ .blue .button {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 0.5rem;
+  color: white;
+  border: solid white;  
+  padding: 1px;
+  border-width: thin;
+  background:  #3882F6;
+  border-radius: 2px;
+  width: 50px;
+ }
+ 
+ 
+ .blue .spnpage {
+  font-size: 0.4rem;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+ }
+
+ .foot.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .child.lord {
+  display: flex;
+  align-items: center;
+  background: #E5E7EB;
+ }
+
+.inspire-jesus {
+  display: flex;
+  display: block;
+  margin: 20px;
+  background: #E5E7EB;
+}
+
+.inspire p {
+
+font-style: italic;
+font-weight: 1s00;
+font-size: 12px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+div .jesus p {
+  color: #000;
+  padding-left: 280px;
+  padding-bottom: 4px;
+  font-size: 9px;
+  font-weight: 700;
+  
+  
+}
+
+
+
