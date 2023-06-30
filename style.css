@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -29,6 +29,71 @@
   
  }
 
+ .head.child {
+  background: #1F2937;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ .first {
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+  border: none;
+  border-style: transparent;
+  
+  
+ }
+
+ .card1 h6 {
+  padding-left: 80px;
+  font-size: 0.5rem;
+  color: rgb(224, 195, 195);
+ }
+
+
+ 
+ .card3 button {
+  
+  margin-right: 20px;
+  margin-bottom: 7px;
+  background:  #1F2937;
+ }
+
+ .second {
+  background:  #1F2937;
+  height: 200px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+  border:none;
+  border-style: transparent;
+  
+ }
+
+ h4 {
+  font-family: roboto;
+  color: #dbc5c5;
+ }
+
+ .par {
+  font-size: 0.5rem;
+  font-family: roboto;
+  color: #d8c9c9;
+ }
+ button {
+  width: 70px;
+  font-size: 0.4rem;
+  border: none;
+ }
+
+ button p {
+  color: rgb(237, 222, 222);
+ }
  .container .child {
   background: peachpuff;
   border: none;
@@ -36,7 +101,29 @@
   
  }
 
+ .cad1 {
+  height: 80px;
+  width: 150px;
+  object-fit: cover;
+  padding-left: 35px;
+ }
 
+ .cad2 .img img {
+  height: 80px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding-right: 35px;
+ }
+
+ .signup {
+  height: 15px;
+  width: 50px;
+  border-radius: 4px;
+  color: #fff;
+  background:  #5d95f0;
+  padding-bottom: 2px;
+ }
  .child.info {
   display: flex;
   justify-content: center;
@@ -45,10 +132,7 @@
   padding: 20px;
 }
 
- .container .head.child {
-  background: #1F2937;
-  height: 300px;
- }
+ 
 
  .container .foot.child {
   background: #1F2937;
@@ -153,8 +237,7 @@ div .jesus p {
   padding-left: 60px;
   background: white;
   border-style: none;
-  display: flex;
-  
+  display: flex;  
 }
 
  .bx {  
